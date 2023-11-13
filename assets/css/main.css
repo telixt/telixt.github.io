@@ -2771,7 +2771,11 @@ input, select, textarea {
 			.tiles article.style11 > .image:before {
 				background-color: #692C89;
 			}
-			
+
+			.tiles article.style12 > .image:before {
+				background-color: #486FDD;
+			}
+
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
