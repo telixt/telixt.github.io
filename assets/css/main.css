@@ -2310,11 +2310,7 @@ input, select, textarea {
 
 /* Image */
 
-	.sio-images {
-			display: flex;
-			margin: 0 0 3em 0;
-			width: 100%;
-	}
+
 
 	.image {
 		border-radius: 4px;
@@ -2355,6 +2351,15 @@ input, select, textarea {
 		}
 
 			.image.fit img {
+				width: 100%;
+			}
+
+		.sio-images {
+			display: flex;
+			margin: 0 0 3em 0;
+		}
+
+			.image.main img {
 				width: 100%;
 			}
 
