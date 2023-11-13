@@ -2360,7 +2360,8 @@ input, select, textarea {
 		}
 
 			.sio-images img {
-				width: 33%;
+				width: 10%;
+				flex: auto;
 			}
 
 		.image.main {
@@ -2387,6 +2388,7 @@ input, select, textarea {
 
 			.sio-images img {
 				flex: auto;
+				width: 100;
 			}
 
 			}
