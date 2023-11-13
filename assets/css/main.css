@@ -2381,11 +2381,12 @@ input, select, textarea {
 
 				.sio-images {
 			display: flex;
+			flex-direction: column;
 			margin: 0 0 3em 0;
 		}
 
 			.sio-images img {
-				width: 100%;
+				flex: auto;
 			}
 
 			}
